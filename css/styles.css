@@ -75,7 +75,7 @@ body {
 
 .results,
 .summary {
-  padding: 0.5rem 2rem 1rem;
+  padding: 2rem;
 }
 
 .grid-flow {
@@ -145,24 +145,36 @@ body {
   background-color: hsla(246, 91%, 43%, 0.08);
 }
 
-.summary-item p {
+/* .summary-item p {
   color: hsla(18, 80%, 0%, 0.55);
-}
-.summary-item span {
+} */
+/* .summary-item span {
   color: black;
+} */
+.reaction .summary-item-title,
+.reaction .summary-score {
+  color: hsla(9, 87%, 41%, 0.9);
 }
-.reaction .summary-item-title {
-  color: hsla(9, 87%, 41%, 0.88);
+.memory .summary-item-title,
+.memory .summary-score {
+  color: hsla(58, 87%, 43%, 0.95);
 }
-.memory .summary-item-title {
-  color: hsla(58, 87%, 43%, 0.88);
+.verbal .summary-item-title,
+.verbal .summary-score {
+  color: hsla(123, 91%, 43%, 0.9);
 }
-.verbal .summary-item-title {
-  color: hsla(123, 91%, 43%, 0.88);
+.visual .summary-item-title,
+.visual .summary-score {
+  color: hsla(246, 91%, 43%, 0.9);
 }
-.visual .summary-item-title {
-  color: hsla(246, 91%, 43%, 0.88);
-}
+
+/* .summary-score span {
+  color: black;
+} */
+
+/* .summary-score span {
+  color: hsla(18, 80%, 0%, 0.65);
+} */
 
 @media (min-width: 600px) {
   .container {
